@@ -5,12 +5,12 @@
         android:icon="@android:drawable/ic_menu_gallery"
         android:orderInCategory="10"
         android:showAsAction="never"
-        android:title="外観設定"/>
+        android:title="@string/title_activity_skin"/>
     <item
         android:id="@+id/set_sound"
         android:icon="@drawable/ic_jog_dial_sound_on"
         android:orderInCategory="20"
         android:showAsAction="never"
-        android:title="クリック音"/>
+        android:title="@string/title_activity_sound"/>
 
 </menu>

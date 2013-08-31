@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="send">送信</string>
+	<string name="err_dialog_title">エラー報告</string>
+	<string name="err_dialog_msg">前回は、エラーで終了してしまい、大変申し訳ありません。今後の改善に役立てますので、開発元にエラーを送っていただけると大変助かります。プライバシーに関する情報は送信されません</string>
+	<string name="err_dialog_msg2">大変申し訳ありません。予期せぬエラーが発生しました。今後の改善に役立てますので、開発元にエラーを送っていただけると大変助かります。プライバシーに関する情報は送信されません</string>
+
+    <string name="app_name">和風電卓</string>
+    <string name="action_settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+    <string name="use_this">この外観を使う</string>
+	<string name="in_use">使用中</string>
+    <string name="title_activity_sound">クリック音</string>
+    <string name="title_activity_skin">外観設定</string>
+
+    <string name="sound_none">なし</string>
+    <string name="sound_none_note">無音</string>
+    <string name="sound_chiiin">仏壇</string>
+    <string name="sound_chiiin_note">チーン</string>
+    <string name="sound_drop">水滴</string>
+    <string name="sound_drop_note">ポチャ</string>
+    <string name="sound_hyu">風</string>
+    <string name="sound_hyu_note">ヒュッ</string>
+    <string name="sound_pi1">電子音1</string>
+    <string name="sound_pi1_note">ピッィ</string>
+    <string name="sound_pi2">電子音2</string>
+    <string name="sound_pi2_note">ピッ。</string>
+    <string name="sound_poku">木魚</string>
+    <string name="sound_poku_note">ポク</string>
+    <string name="sound_taiko">太鼓</string>
+    <string name="sound_taiko_note">ドン</string>
+
+</resources>

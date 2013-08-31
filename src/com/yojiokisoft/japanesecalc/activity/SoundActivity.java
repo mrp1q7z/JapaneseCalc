@@ -113,57 +113,57 @@ public class SoundActivity extends Activity {
 		List<SoundEntity> list = new ArrayList<SoundEntity>();
 
 		SoundEntity sound = new SoundEntity();
-		sound.title = "なし";
-		sound.description = "無音";
+		sound.title = getString(R.string.sound_none);
+		sound.description = getString(R.string.sound_none_note);
 		sound.resId = 0;
 		sound.checked = false;
 		list.add(sound);
 
 		sound = new SoundEntity();
-		sound.title = "仏壇";
-		sound.description = "チーン";
+		sound.title = getString(R.string.sound_chiiin);
+		sound.description = getString(R.string.sound_chiiin_note);
 		sound.resId = R.raw.mp_chiiin;
 		sound.checked = false;
 		list.add(sound);
 
 		sound = new SoundEntity();
-		sound.title = "水滴";
-		sound.description = "ポチャ";
+		sound.title = getString(R.string.sound_drop);
+		sound.description = getString(R.string.sound_drop_note);
 		sound.resId = R.raw.mp_drop;
 		sound.checked = false;
 		list.add(sound);
 
 		sound = new SoundEntity();
-		sound.title = "風";
-		sound.description = "ヒュッ";
+		sound.title = getString(R.string.sound_hyu);
+		sound.description = getString(R.string.sound_hyu_note);
 		sound.resId = R.raw.mp_hyu;
 		sound.checked = false;
 		list.add(sound);
 
 		sound = new SoundEntity();
-		sound.title = "電子音１";
-		sound.description = "ピッィ";
+		sound.title = getString(R.string.sound_pi1);
+		sound.description = getString(R.string.sound_pi1_note);
 		sound.resId = R.raw.mp_pi1;
 		sound.checked = false;
 		list.add(sound);
 
 		sound = new SoundEntity();
-		sound.title = "電子音２";
-		sound.description = "ピッ。";
+		sound.title = getString(R.string.sound_pi2);
+		sound.description = getString(R.string.sound_pi2_note);
 		sound.resId = R.raw.mp_pi2;
 		sound.checked = false;
 		list.add(sound);
 
 		sound = new SoundEntity();
-		sound.title = "木魚";
-		sound.description = "ポク";
+		sound.title = getString(R.string.sound_poku);
+		sound.description = getString(R.string.sound_poku_note);
 		sound.resId = R.raw.mp_poku;
 		sound.checked = false;
 		list.add(sound);
 
 		sound = new SoundEntity();
-		sound.title = "太鼓";
-		sound.description = "ドン";
+		sound.title = getString(R.string.sound_taiko);
+		sound.description = getString(R.string.sound_taiko_note);
 		sound.resId = R.raw.mp_taiko;
 		sound.checked = false;
 		list.add(sound);

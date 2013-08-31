@@ -189,7 +189,7 @@ public class SkinActivity extends Activity {
 	 */
 	private void setUseButtonText(String resName) {
 		if (mSkinResName.equals(resName)) {
-			mUseButton.setText("使用中");
+			mUseButton.setText(getString(R.string.in_use));
 			mUseButton.setCompoundDrawablesWithIntrinsicBounds(R.drawable.star_big_on, 0, 0, 0);
 		} else {
 			mUseButton.setText(getString(R.string.use_this));

@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="send">送信</string>
-	<string name="err_dialog_title">エラー報告</string>
-	<string name="err_dialog_msg">前回は、エラーで終了してしまい、大変申し訳ありません。今後の改善に役立てますので、開発元にエラーを送っていただけると大変助かります。プライバシーに関する情報は送信されません</string>
-	<string name="err_dialog_msg2">大変申し訳ありません。予期せぬエラーが発生しました。今後の改善に役立てますので、開発元にエラーを送っていただけると大変助かります。プライバシーに関する情報は送信されません</string>
+    <string name="send">Send</string>
+	<string name="err_dialog_title">Error Reporting</string>
+	<string name="err_dialog_msg">Last time, it would exit with an error, I am sorry. The very helpful because it used to improve in the future, and you could send us the error the manufacturer. Information privacy is not sent.</string>
+	<string name="err_dialog_msg2">I am sorry. An unexpected error has occurred. The very helpful because it used to improve in the future, and you could send us the error the manufacturer. Information privacy is not sent.</string>
 
-    <string name="app_name">和風電卓</string>
+    <string name="app_name">Ja-style Calc Free</string>
     <string name="action_settings">Settings</string>
     <string name="ok">OK</string>
-    <string name="cancel">キャンセル</string>
-    <string name="use_this">この外観を使う</string>
-    <string name="title_activity_sound">クリック音</string>
-    <string name="title_activity_skin">外観設定</string>
+    <string name="cancel">Cancel</string>
+    <string name="use_this">Set this skin</string>
+	<string name="in_use">In use</string>
+    <string name="title_activity_sound">Clicking sound</string>
+    <string name="title_activity_skin">Skin settings</string>
+
+    <string name="sound_none">none</string>
+    <string name="sound_none_note">soundless</string>
+    <string name="sound_chiiin">Buddhist altar</string>
+    <string name="sound_chiiin_note">ting</string>
+    <string name="sound_drop">Drop</string>
+    <string name="sound_drop_note">plop</string>
+    <string name="sound_hyu">Wind</string>
+    <string name="sound_hyu_note">whizz</string>
+    <string name="sound_pi1">Electronic sound 1</string>
+    <string name="sound_pi1_note">peep</string>
+    <string name="sound_pi2">Electronic sound 2</string>
+    <string name="sound_pi2_note">blip</string>
+    <string name="sound_poku">Wooden fish</string>
+    <string name="sound_poku_note">knock</string>
+    <string name="sound_taiko">Drum</string>
+    <string name="sound_taiko_note">boom</string>
 
 </resources>
