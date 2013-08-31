@@ -1137,6 +1137,8 @@ com.yojiokisoft.japanesecalc.dao.BackImageEntity:
     public static final int IT_RESOURCE
     public static final int IT_BITMAP
     public java.lang.String bitmapPath
+com.yojiokisoft.japanesecalc.dao.SoundEntity:
+    private static final long serialVersionUID
 com.yojiokisoft.japanesecalc.utils.MyConst:
     public static final java.lang.String APP_NAME
     public static final java.lang.String PK_CLICK_SOUND

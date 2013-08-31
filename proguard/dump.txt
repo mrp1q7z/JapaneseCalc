@@ -56243,12 +56243,11 @@ Methods (count = 38):
       - ExceptionInfo (10 -> 127: 130):
       + Class [java/lang/ArithmeticException]
       Code attribute attributes (attribute count = 1):
-      + Stack map table attribute (count = 7):
+      + Stack map table attribute (count = 6):
         - [46] Var: ...[a:java/math/BigDecimal], Stack: (empty)
         - [82] Var: ..., Stack: (empty)
         - [111] Var: ..., Stack: (empty)
-        - [127] Var: ...[a:java/math/BigDecimal], Stack: (empty)
-        - [130] Var: [a:com/yojiokisoft/japanesecalc/b][a:java/math/BigDecimal], Stack: [a:java/lang/ArithmeticException]
+        - [130] Var: ..., Stack: [a:java/lang/ArithmeticException]
         - [139] Var: ...[a:java/math/BigDecimal], Stack: (empty)
         - [163] Var: ..., Stack: (empty)
   + Method:       m()V
@@ -59106,10 +59105,9 @@ Methods (count = 16):
       [74] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 1):
-      + Stack map table attribute (count = 5):
+      + Stack map table attribute (count = 4):
         - [36] Var: ..., Stack: (empty)
         - [49] Var: ..., Stack: (empty)
-        - [66] Var: ..., Stack: (empty)
         - [69] Var: ..., Stack: (empty)
         - [74] Var: ..., Stack: (empty)
   + Method:       b(Lcom/yojiokisoft/japanesecalc/l;)V
@@ -63034,11 +63032,12 @@ _____________________________________________________________________
 
 Interfaces (count = 0):
 
-Constant Pool (count = 253):
+Constant Pool (count = 252):
   + Integer [2130837574]
   + Integer [2130837575]
   + Integer [2130903041]
   + Integer [2131165192]
+  + Integer [2131165193]
   + Integer [2131361820]
   + Integer [2131361821]
   + Integer [2131361822]
@@ -63046,7 +63045,6 @@ Constant Pool (count = 253):
   + Integer [2131361824]
   + Integer [2131361825]
   + String [s_]
-  + String [使用中]
   + Class [[Landroid/widget/ImageView;]
   + Class [android/app/Activity]
   + Class [android/content/res/Configuration]
@@ -63286,7 +63284,6 @@ Constant Pool (count = 253):
   + Utf8 [size]
   + Utf8 [toString]
   + Utf8 [valueOf]
-  + Utf8 [使用中]
 
 Fields (count = 10):
   + Field:        a Landroid/widget/ImageView;
@@ -63426,7 +63423,7 @@ Methods (count = 8):
       [60] iconst_2
       [61] ificmpne +26 (target=87)
       [64] aload_0 v0
-      [65] ldc #5
+      [65] ldc #6
         + Integer [2131361820]
       [67] invokevirtual #75
         + Methodref [com/yojiokisoft/japanesecalc/activity/SkinActivity.findViewById (I)Landroid/view/View;]
@@ -63441,7 +63438,7 @@ Methods (count = 8):
         + Methodref [com/yojiokisoft/japanesecalc/CustomScrollView.setScrollStateListener (Lcom/yojiokisoft/japanesecalc/f;)V]
       [84] goto +23 (target=107)
       [87] aload_0 v0
-      [88] ldc #5
+      [88] ldc #6
         + Integer [2131361820]
       [90] invokevirtual #75
         + Methodref [com/yojiokisoft/japanesecalc/activity/SkinActivity.findViewById (I)Landroid/view/View;]
@@ -63455,7 +63452,7 @@ Methods (count = 8):
       [104] invokevirtual #68
         + Methodref [com/yojiokisoft/japanesecalc/CustomHorizontalScrollView.setScrollStateListener (Lcom/yojiokisoft/japanesecalc/e;)V]
       [107] aload_0 v0
-      [108] ldc #6
+      [108] ldc #7
         + Integer [2131361821]
       [110] invokevirtual #75
         + Methodref [com/yojiokisoft/japanesecalc/activity/SkinActivity.findViewById (I)Landroid/view/View;]
@@ -63464,7 +63461,7 @@ Methods (count = 8):
       [116] astore v7
       [118] aload_0 v0
       [119] aload_0 v0
-      [120] ldc #7
+      [120] ldc #8
         + Integer [2131361822]
       [122] invokevirtual #75
         + Methodref [com/yojiokisoft/japanesecalc/activity/SkinActivity.findViewById (I)Landroid/view/View;]
@@ -63474,7 +63471,7 @@ Methods (count = 8):
         + Fieldref [com/yojiokisoft/japanesecalc/activity/SkinActivity.a Landroid/widget/ImageView;]
       [131] aload_0 v0
       [132] aload_0 v0
-      [133] ldc #8
+      [133] ldc #9
         + Integer [2131361823]
       [135] invokevirtual #75
         + Methodref [com/yojiokisoft/japanesecalc/activity/SkinActivity.findViewById (I)Landroid/view/View;]
@@ -63484,7 +63481,7 @@ Methods (count = 8):
         + Fieldref [com/yojiokisoft/japanesecalc/activity/SkinActivity.b Landroid/widget/ImageView;]
       [144] aload_0 v0
       [145] aload_0 v0
-      [146] ldc #9
+      [146] ldc #10
         + Integer [2131361824]
       [148] invokevirtual #75
         + Methodref [com/yojiokisoft/japanesecalc/activity/SkinActivity.findViewById (I)Landroid/view/View;]
@@ -63494,7 +63491,7 @@ Methods (count = 8):
         + Fieldref [com/yojiokisoft/japanesecalc/activity/SkinActivity.c Landroid/support/v4/view/ViewPager;]
       [157] aload_0 v0
       [158] aload_0 v0
-      [159] ldc #10
+      [159] ldc #11
         + Integer [2131361825]
       [161] invokevirtual #75
         + Methodref [com/yojiokisoft/japanesecalc/activity/SkinActivity.findViewById (I)Landroid/view/View;]
@@ -63543,7 +63540,7 @@ Methods (count = 8):
       [232] new #38
         + Class [java/lang/StringBuilder]
       [235] dup
-      [236] ldc #11
+      [236] ldc #12
         + String [s_]
       [238] invokespecial #89
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
@@ -63691,58 +63688,61 @@ Methods (count = 8):
     Access flags: 0x2
       = private void a(java.lang.String)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 61, locals = 2, stack = 5):
+    + Code attribute instructions (code length = 65, locals = 2, stack = 5):
       [0] aload_0 v0
       [1] getfield #46
         + Fieldref [com/yojiokisoft/japanesecalc/activity/SkinActivity.e Ljava/lang/String;]
       [4] aload_1 v1
       [5] invokevirtual #88
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
-      [8] ifeq +27 (target=35)
+      [8] ifeq +31 (target=39)
       [11] aload_0 v0
       [12] getfield #45
         + Fieldref [com/yojiokisoft/japanesecalc/activity/SkinActivity.d Landroid/widget/Button;]
-      [15] ldc #12
-        + String [使用中]
-      [17] invokevirtual #59
-        + Methodref [android/widget/Button.setText (Ljava/lang/CharSequence;)V]
-      [20] aload_0 v0
-      [21] getfield #45
-        + Fieldref [com/yojiokisoft/japanesecalc/activity/SkinActivity.d Landroid/widget/Button;]
-      [24] ldc #2
-        + Integer [2130837575]
-      [26] iconst_0
-      [27] iconst_0
-      [28] iconst_0
-      [29] invokevirtual #57
-        + Methodref [android/widget/Button.setCompoundDrawablesWithIntrinsicBounds (IIII)V]
-      [32] goto +28 (target=60)
-      [35] aload_0 v0
-      [36] getfield #45
-        + Fieldref [com/yojiokisoft/japanesecalc/activity/SkinActivity.d Landroid/widget/Button;]
-      [39] aload_0 v0
-      [40] ldc #4
-        + Integer [2131165192]
-      [42] invokevirtual #77
+      [15] aload_0 v0
+      [16] ldc #5
+        + Integer [2131165193]
+      [18] invokevirtual #77
         + Methodref [com/yojiokisoft/japanesecalc/activity/SkinActivity.getString (I)Ljava/lang/String;]
-      [45] invokevirtual #59
+      [21] invokevirtual #59
         + Methodref [android/widget/Button.setText (Ljava/lang/CharSequence;)V]
-      [48] aload_0 v0
-      [49] getfield #45
+      [24] aload_0 v0
+      [25] getfield #45
         + Fieldref [com/yojiokisoft/japanesecalc/activity/SkinActivity.d Landroid/widget/Button;]
-      [52] ldc #1
-        + Integer [2130837574]
-      [54] iconst_0
-      [55] iconst_0
-      [56] iconst_0
-      [57] invokevirtual #57
+      [28] ldc #2
+        + Integer [2130837575]
+      [30] iconst_0
+      [31] iconst_0
+      [32] iconst_0
+      [33] invokevirtual #57
         + Methodref [android/widget/Button.setCompoundDrawablesWithIntrinsicBounds (IIII)V]
-      [60] return
+      [36] goto +28 (target=64)
+      [39] aload_0 v0
+      [40] getfield #45
+        + Fieldref [com/yojiokisoft/japanesecalc/activity/SkinActivity.d Landroid/widget/Button;]
+      [43] aload_0 v0
+      [44] ldc #4
+        + Integer [2131165192]
+      [46] invokevirtual #77
+        + Methodref [com/yojiokisoft/japanesecalc/activity/SkinActivity.getString (I)Ljava/lang/String;]
+      [49] invokevirtual #59
+        + Methodref [android/widget/Button.setText (Ljava/lang/CharSequence;)V]
+      [52] aload_0 v0
+      [53] getfield #45
+        + Fieldref [com/yojiokisoft/japanesecalc/activity/SkinActivity.d Landroid/widget/Button;]
+      [56] ldc #1
+        + Integer [2130837574]
+      [58] iconst_0
+      [59] iconst_0
+      [60] iconst_0
+      [61] invokevirtual #57
+        + Methodref [android/widget/Button.setCompoundDrawablesWithIntrinsicBounds (IIII)V]
+      [64] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 1):
       + Stack map table attribute (count = 2):
-        - [35] Var: ..., Stack: (empty)
-        - [60] Var: ..., Stack: (empty)
+        - [39] Var: ..., Stack: (empty)
+        - [64] Var: ..., Stack: (empty)
   + Method:       a(Lcom/yojiokisoft/japanesecalc/activity/SkinActivity;)Landroid/widget/ImageView;
     Access flags: 0x1008
       = static synthetic android.widget.ImageView a(com.yojiokisoft.japanesecalc.activity.SkinActivity)
@@ -64506,7 +64506,7 @@ _____________________________________________________________________
 
 Interfaces (count = 0):
 
-Constant Pool (count = 251):
+Constant Pool (count = 238):
   + Integer [16908308]
   + Integer [17367055]
   + Integer [2130903042]
@@ -64517,28 +64517,28 @@ Constant Pool (count = 251):
   + Integer [2130968580]
   + Integer [2130968581]
   + Integer [2130968582]
+  + Integer [2131165196]
+  + Integer [2131165197]
+  + Integer [2131165198]
+  + Integer [2131165199]
+  + Integer [2131165200]
+  + Integer [2131165201]
+  + Integer [2131165202]
+  + Integer [2131165203]
+  + Integer [2131165204]
+  + Integer [2131165205]
+  + Integer [2131165206]
+  + Integer [2131165207]
+  + Integer [2131165208]
+  + Integer [2131165209]
+  + Integer [2131165210]
+  + Integer [2131165211]
   + Integer [2131361829]
   + String [ (]
   + String [)]
   + String [SAVE_POSITION]
   + String [none]
   + String [raw]
-  + String [なし]
-  + String [チーン]
-  + String [ドン]
-  + String [ヒュッ]
-  + String [ピッ。]
-  + String [ピッィ]
-  + String [ポク]
-  + String [ポチャ]
-  + String [仏壇]
-  + String [太鼓]
-  + String [木魚]
-  + String [水滴]
-  + String [無音]
-  + String [電子音１]
-  + String [電子音２]
-  + String [風]
   + Class [[Ljava/lang/String;]
   + Class [android/app/Activity]
   + Class [android/content/res/Resources]
@@ -64590,6 +64590,7 @@ Constant Pool (count = 251):
   + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.finish ()V]
   + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getApplicationContext ()Landroid/content/Context;]
   + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getResources ()Landroid/content/res/Resources;]
+  + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getString (I)Ljava/lang/String;]
   + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.setContentView (I)V]
   + Methodref [com/yojiokisoft/japanesecalc/activity/h.<init> (Lcom/yojiokisoft/japanesecalc/activity/SoundActivity;)V]
   + Methodref [com/yojiokisoft/japanesecalc/c/d.a (Ljava/lang/String;Ljava/lang/String;)I]
@@ -64630,6 +64631,7 @@ Constant Pool (count = 251):
   + NameAndType [getInt (Ljava/lang/String;)I]
   + NameAndType [getResourceEntryName (I)Ljava/lang/String;]
   + NameAndType [getResources ()Landroid/content/res/Resources;]
+  + NameAndType [getString (I)Ljava/lang/String;]
   + NameAndType [load (Landroid/content/Context;II)I]
   + NameAndType [onCreate (Landroid/os/Bundle;)V]
   + NameAndType [onDestroy ()V]
@@ -64718,6 +64720,7 @@ Constant Pool (count = 251):
   + Utf8 [getInt]
   + Utf8 [getResourceEntryName]
   + Utf8 [getResources]
+  + Utf8 [getString]
   + Utf8 [java/lang/String]
   + Utf8 [java/lang/StringBuilder]
   + Utf8 [java/util/ArrayList]
@@ -64741,22 +64744,6 @@ Constant Pool (count = 251):
   + Utf8 [size]
   + Utf8 [toString]
   + Utf8 [valueOf]
-  + Utf8 [なし]
-  + Utf8 [チーン]
-  + Utf8 [ドン]
-  + Utf8 [ヒュッ]
-  + Utf8 [ピッ。]
-  + Utf8 [ピッィ]
-  + Utf8 [ポク]
-  + Utf8 [ポチャ]
-  + Utf8 [仏壇]
-  + Utf8 [太鼓]
-  + Utf8 [木魚]
-  + Utf8 [水滴]
-  + Utf8 [無音]
-  + Utf8 [電子音１]
-  + Utf8 [電子音２]
-  + Utf8 [風]
 
 Fields (count = 6):
   + Field:        a Landroid/widget/ListView;
@@ -64796,7 +64783,7 @@ Methods (count = 12):
         + Class [com/yojiokisoft/japanesecalc/activity/h]
       [13] dup
       [14] aload_0 v0
-      [15] invokespecial #85
+      [15] invokespecial #86
         + Methodref [com/yojiokisoft/japanesecalc/activity/h.<init> (Lcom/yojiokisoft/japanesecalc/activity/SoundActivity;)V]
       [18] putfield #58
         + Fieldref [com/yojiokisoft/japanesecalc/activity/SoundActivity.f Landroid/widget/AdapterView$OnItemClickListener;]
@@ -64815,11 +64802,11 @@ Methods (count = 12):
       [5] aload_0 v0
       [6] ldc #3
         + Integer [2130903042]
-      [8] invokevirtual #84
+      [8] invokevirtual #85
         + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.setContentView (I)V]
       [11] aload_0 v0
       [12] aload_0 v0
-      [13] ldc #11
+      [13] ldc #27
         + Integer [2131361829]
       [15] invokevirtual #80
         + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.findViewById (I)Landroid/view/View;]
@@ -64839,15 +64826,15 @@ Methods (count = 12):
         + Methodref [com/yojiokisoft/japanesecalc/a/c.b ()Ljava/lang/String;]
       [38] astore_2 v2
       [39] aload_2 v2
-      [40] ldc #16
+      [40] ldc #32
         + String [raw]
-      [42] invokestatic #86
+      [42] invokestatic #87
         + Methodref [com/yojiokisoft/japanesecalc/c/d.a (Ljava/lang/String;Ljava/lang/String;)I]
       [45] istore_3 v3
       [46] aload_0 v0
       [47] getfield #57
         + Fieldref [com/yojiokisoft/japanesecalc/activity/SoundActivity.e Ljava/util/List;]
-      [50] invokeinterface #94
+      [50] invokeinterface #95
         + InterfaceMethodref [java/util/List.size ()I]
       [55] anewarray #45
         + Class [java/lang/String]
@@ -64859,7 +64846,7 @@ Methods (count = 12):
       [67] getfield #57
         + Fieldref [com/yojiokisoft/japanesecalc/activity/SoundActivity.e Ljava/util/List;]
       [70] iload v6
-      [72] invokeinterface #93
+      [72] invokeinterface #94
         + InterfaceMethodref [java/util/List.get (I)Ljava/lang/Object;]
       [77] checkcast #41
         + Class [com/yojiokisoft/japanesecalc/a/d]
@@ -64872,24 +64859,24 @@ Methods (count = 12):
       [90] aload v5
       [92] getfield #50
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.b Ljava/lang/String;]
-      [95] invokestatic #87
+      [95] invokestatic #88
         + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
-      [98] invokespecial #88
+      [98] invokespecial #89
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
-      [101] ldc #12
+      [101] ldc #28
         + String [ (]
-      [103] invokevirtual #89
+      [103] invokevirtual #90
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [106] aload v5
       [108] getfield #51
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.c Ljava/lang/String;]
-      [111] invokevirtual #89
+      [111] invokevirtual #90
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [114] ldc #13
+      [114] ldc #29
         + String [)]
-      [116] invokevirtual #89
+      [116] invokevirtual #90
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [119] invokevirtual #90
+      [119] invokevirtual #91
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [122] aastore
       [123] iload_3 v3
@@ -64906,7 +64893,7 @@ Methods (count = 12):
       [143] aload_0 v0
       [144] getfield #57
         + Fieldref [com/yojiokisoft/japanesecalc/activity/SoundActivity.e Ljava/util/List;]
-      [147] invokeinterface #94
+      [147] invokeinterface #95
         + InterfaceMethodref [java/util/List.size ()I]
       [152] ificmplt -86 (target=66)
       [155] new #38
@@ -64957,7 +64944,7 @@ Methods (count = 12):
       [216] aload_0 v0
       [217] getfield #57
         + Fieldref [com/yojiokisoft/japanesecalc/activity/SoundActivity.e Ljava/util/List;]
-      [220] invokeinterface #94
+      [220] invokeinterface #95
         + InterfaceMethodref [java/util/List.size ()I]
       [225] iconst_3
       [226] iconst_0
@@ -64969,7 +64956,7 @@ Methods (count = 12):
       [234] aload_0 v0
       [235] getfield #57
         + Fieldref [com/yojiokisoft/japanesecalc/activity/SoundActivity.e Ljava/util/List;]
-      [238] invokeinterface #94
+      [238] invokeinterface #95
         + InterfaceMethodref [java/util/List.size ()I]
       [243] newarray 10
       [245] putfield #56
@@ -64981,7 +64968,7 @@ Methods (count = 12):
       [255] getfield #57
         + Fieldref [com/yojiokisoft/japanesecalc/activity/SoundActivity.e Ljava/util/List;]
       [258] iload v7
-      [260] invokeinterface #93
+      [260] invokeinterface #94
         + InterfaceMethodref [java/util/List.get (I)Ljava/lang/Object;]
       [265] checkcast #41
         + Class [com/yojiokisoft/japanesecalc/a/d]
@@ -65009,7 +64996,7 @@ Methods (count = 12):
       [300] getfield #57
         + Fieldref [com/yojiokisoft/japanesecalc/activity/SoundActivity.e Ljava/util/List;]
       [303] iload v7
-      [305] invokeinterface #93
+      [305] invokeinterface #94
         + InterfaceMethodref [java/util/List.get (I)Ljava/lang/Object;]
       [310] checkcast #41
         + Class [com/yojiokisoft/japanesecalc/a/d]
@@ -65024,7 +65011,7 @@ Methods (count = 12):
       [326] aload_0 v0
       [327] getfield #57
         + Fieldref [com/yojiokisoft/japanesecalc/activity/SoundActivity.e Ljava/util/List;]
-      [330] invokeinterface #94
+      [330] invokeinterface #95
         + InterfaceMethodref [java/util/List.size ()I]
       [335] ificmplt -81 (target=254)
       [338] return
@@ -65048,7 +65035,7 @@ Methods (count = 12):
       [2] invokespecial #63
         + Methodref [android/app/Activity.onSaveInstanceState (Landroid/os/Bundle;)V]
       [5] aload_1 v1
-      [6] ldc #14
+      [6] ldc #30
         + String [SAVE_POSITION]
       [8] aload_0 v0
       [9] getfield #54
@@ -65069,7 +65056,7 @@ Methods (count = 12):
         + Methodref [android/app/Activity.onRestoreInstanceState (Landroid/os/Bundle;)V]
       [5] aload_0 v0
       [6] aload_1 v1
-      [7] ldc #14
+      [7] ldc #30
         + String [SAVE_POSITION]
       [9] invokevirtual #68
         + Methodref [android/os/Bundle.getInt (Ljava/lang/String;)I]
@@ -65082,11 +65069,11 @@ Methods (count = 12):
     Access flags: 0x2
       = private java.util.List a()
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 321, locals = 3, stack = 2):
+    + Code attribute instructions (code length = 385, locals = 3, stack = 3):
       [0] new #47
         + Class [java/util/ArrayList]
       [3] dup
-      [4] invokespecial #91
+      [4] invokespecial #92
         + Methodref [java/util/ArrayList.<init> ()V]
       [7] astore_1 v1
       [8] new #41
@@ -65096,240 +65083,288 @@ Methods (count = 12):
         + Methodref [com/yojiokisoft/japanesecalc/a/d.<init> ()V]
       [15] astore_2 v2
       [16] aload_2 v2
-      [17] ldc #17
-        + String [なし]
-      [19] putfield #50
+      [17] aload_0 v0
+      [18] ldc #11
+        + Integer [2131165196]
+      [20] invokevirtual #84
+        + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getString (I)Ljava/lang/String;]
+      [23] putfield #50
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.b Ljava/lang/String;]
-      [22] aload_2 v2
-      [23] ldc #29
-        + String [無音]
-      [25] putfield #51
+      [26] aload_2 v2
+      [27] aload_0 v0
+      [28] ldc #12
+        + Integer [2131165197]
+      [30] invokevirtual #84
+        + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getString (I)Ljava/lang/String;]
+      [33] putfield #51
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.c Ljava/lang/String;]
-      [28] aload_2 v2
-      [29] iconst_0
-      [30] putfield #49
+      [36] aload_2 v2
+      [37] iconst_0
+      [38] putfield #49
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.a I]
-      [33] aload_2 v2
-      [34] iconst_0
-      [35] putfield #52
+      [41] aload_2 v2
+      [42] iconst_0
+      [43] putfield #52
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.d Z]
-      [38] aload_1 v1
-      [39] aload_2 v2
-      [40] invokeinterface #92
+      [46] aload_1 v1
+      [47] aload_2 v2
+      [48] invokeinterface #93
         + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [45] pop
-      [46] new #41
+      [53] pop
+      [54] new #41
         + Class [com/yojiokisoft/japanesecalc/a/d]
-      [49] dup
-      [50] invokespecial #78
+      [57] dup
+      [58] invokespecial #78
         + Methodref [com/yojiokisoft/japanesecalc/a/d.<init> ()V]
-      [53] astore_2 v2
-      [54] aload_2 v2
-      [55] ldc #25
-        + String [仏壇]
-      [57] putfield #50
+      [61] astore_2 v2
+      [62] aload_2 v2
+      [63] aload_0 v0
+      [64] ldc #13
+        + Integer [2131165198]
+      [66] invokevirtual #84
+        + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getString (I)Ljava/lang/String;]
+      [69] putfield #50
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.b Ljava/lang/String;]
-      [60] aload_2 v2
-      [61] ldc #18
-        + String [チーン]
-      [63] putfield #51
-        + Fieldref [com/yojiokisoft/japanesecalc/a/d.c Ljava/lang/String;]
-      [66] aload_2 v2
-      [67] ldc #4
-        + Integer [2130968576]
-      [69] putfield #49
-        + Fieldref [com/yojiokisoft/japanesecalc/a/d.a I]
       [72] aload_2 v2
-      [73] iconst_0
-      [74] putfield #52
-        + Fieldref [com/yojiokisoft/japanesecalc/a/d.d Z]
-      [77] aload_1 v1
-      [78] aload_2 v2
-      [79] invokeinterface #92
-        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [84] pop
-      [85] new #41
-        + Class [com/yojiokisoft/japanesecalc/a/d]
-      [88] dup
-      [89] invokespecial #78
-        + Methodref [com/yojiokisoft/japanesecalc/a/d.<init> ()V]
-      [92] astore_2 v2
-      [93] aload_2 v2
-      [94] ldc #28
-        + String [水滴]
-      [96] putfield #50
-        + Fieldref [com/yojiokisoft/japanesecalc/a/d.b Ljava/lang/String;]
-      [99] aload_2 v2
-      [100] ldc #24
-        + String [ポチャ]
-      [102] putfield #51
+      [73] aload_0 v0
+      [74] ldc #14
+        + Integer [2131165199]
+      [76] invokevirtual #84
+        + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getString (I)Ljava/lang/String;]
+      [79] putfield #51
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.c Ljava/lang/String;]
-      [105] aload_2 v2
-      [106] ldc #5
+      [82] aload_2 v2
+      [83] ldc #4
+        + Integer [2130968576]
+      [85] putfield #49
+        + Fieldref [com/yojiokisoft/japanesecalc/a/d.a I]
+      [88] aload_2 v2
+      [89] iconst_0
+      [90] putfield #52
+        + Fieldref [com/yojiokisoft/japanesecalc/a/d.d Z]
+      [93] aload_1 v1
+      [94] aload_2 v2
+      [95] invokeinterface #93
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [100] pop
+      [101] new #41
+        + Class [com/yojiokisoft/japanesecalc/a/d]
+      [104] dup
+      [105] invokespecial #78
+        + Methodref [com/yojiokisoft/japanesecalc/a/d.<init> ()V]
+      [108] astore_2 v2
+      [109] aload_2 v2
+      [110] aload_0 v0
+      [111] ldc #15
+        + Integer [2131165200]
+      [113] invokevirtual #84
+        + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getString (I)Ljava/lang/String;]
+      [116] putfield #50
+        + Fieldref [com/yojiokisoft/japanesecalc/a/d.b Ljava/lang/String;]
+      [119] aload_2 v2
+      [120] aload_0 v0
+      [121] ldc #16
+        + Integer [2131165201]
+      [123] invokevirtual #84
+        + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getString (I)Ljava/lang/String;]
+      [126] putfield #51
+        + Fieldref [com/yojiokisoft/japanesecalc/a/d.c Ljava/lang/String;]
+      [129] aload_2 v2
+      [130] ldc #5
         + Integer [2130968577]
-      [108] putfield #49
+      [132] putfield #49
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.a I]
-      [111] aload_2 v2
-      [112] iconst_0
-      [113] putfield #52
+      [135] aload_2 v2
+      [136] iconst_0
+      [137] putfield #52
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.d Z]
-      [116] aload_1 v1
-      [117] aload_2 v2
-      [118] invokeinterface #92
+      [140] aload_1 v1
+      [141] aload_2 v2
+      [142] invokeinterface #93
         + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [123] pop
-      [124] new #41
+      [147] pop
+      [148] new #41
         + Class [com/yojiokisoft/japanesecalc/a/d]
-      [127] dup
-      [128] invokespecial #78
+      [151] dup
+      [152] invokespecial #78
         + Methodref [com/yojiokisoft/japanesecalc/a/d.<init> ()V]
-      [131] astore_2 v2
-      [132] aload_2 v2
-      [133] ldc #32
-        + String [風]
-      [135] putfield #50
-        + Fieldref [com/yojiokisoft/japanesecalc/a/d.b Ljava/lang/String;]
-      [138] aload_2 v2
-      [139] ldc #20
-        + String [ヒュッ]
-      [141] putfield #51
-        + Fieldref [com/yojiokisoft/japanesecalc/a/d.c Ljava/lang/String;]
-      [144] aload_2 v2
-      [145] ldc #6
-        + Integer [2130968578]
-      [147] putfield #49
-        + Fieldref [com/yojiokisoft/japanesecalc/a/d.a I]
-      [150] aload_2 v2
-      [151] iconst_0
-      [152] putfield #52
-        + Fieldref [com/yojiokisoft/japanesecalc/a/d.d Z]
-      [155] aload_1 v1
+      [155] astore_2 v2
       [156] aload_2 v2
-      [157] invokeinterface #92
-        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [162] pop
-      [163] new #41
-        + Class [com/yojiokisoft/japanesecalc/a/d]
-      [166] dup
-      [167] invokespecial #78
-        + Methodref [com/yojiokisoft/japanesecalc/a/d.<init> ()V]
-      [170] astore_2 v2
-      [171] aload_2 v2
-      [172] ldc #30
-        + String [電子音１]
-      [174] putfield #50
+      [157] aload_0 v0
+      [158] ldc #17
+        + Integer [2131165202]
+      [160] invokevirtual #84
+        + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getString (I)Ljava/lang/String;]
+      [163] putfield #50
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.b Ljava/lang/String;]
-      [177] aload_2 v2
-      [178] ldc #22
-        + String [ピッィ]
-      [180] putfield #51
+      [166] aload_2 v2
+      [167] aload_0 v0
+      [168] ldc #18
+        + Integer [2131165203]
+      [170] invokevirtual #84
+        + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getString (I)Ljava/lang/String;]
+      [173] putfield #51
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.c Ljava/lang/String;]
-      [183] aload_2 v2
-      [184] ldc #7
+      [176] aload_2 v2
+      [177] ldc #6
+        + Integer [2130968578]
+      [179] putfield #49
+        + Fieldref [com/yojiokisoft/japanesecalc/a/d.a I]
+      [182] aload_2 v2
+      [183] iconst_0
+      [184] putfield #52
+        + Fieldref [com/yojiokisoft/japanesecalc/a/d.d Z]
+      [187] aload_1 v1
+      [188] aload_2 v2
+      [189] invokeinterface #93
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [194] pop
+      [195] new #41
+        + Class [com/yojiokisoft/japanesecalc/a/d]
+      [198] dup
+      [199] invokespecial #78
+        + Methodref [com/yojiokisoft/japanesecalc/a/d.<init> ()V]
+      [202] astore_2 v2
+      [203] aload_2 v2
+      [204] aload_0 v0
+      [205] ldc #19
+        + Integer [2131165204]
+      [207] invokevirtual #84
+        + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getString (I)Ljava/lang/String;]
+      [210] putfield #50
+        + Fieldref [com/yojiokisoft/japanesecalc/a/d.b Ljava/lang/String;]
+      [213] aload_2 v2
+      [214] aload_0 v0
+      [215] ldc #20
+        + Integer [2131165205]
+      [217] invokevirtual #84
+        + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getString (I)Ljava/lang/String;]
+      [220] putfield #51
+        + Fieldref [com/yojiokisoft/japanesecalc/a/d.c Ljava/lang/String;]
+      [223] aload_2 v2
+      [224] ldc #7
         + Integer [2130968579]
-      [186] putfield #49
+      [226] putfield #49
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.a I]
-      [189] aload_2 v2
-      [190] iconst_0
-      [191] putfield #52
+      [229] aload_2 v2
+      [230] iconst_0
+      [231] putfield #52
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.d Z]
-      [194] aload_1 v1
-      [195] aload_2 v2
-      [196] invokeinterface #92
+      [234] aload_1 v1
+      [235] aload_2 v2
+      [236] invokeinterface #93
         + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [201] pop
-      [202] new #41
+      [241] pop
+      [242] new #41
         + Class [com/yojiokisoft/japanesecalc/a/d]
-      [205] dup
-      [206] invokespecial #78
+      [245] dup
+      [246] invokespecial #78
         + Methodref [com/yojiokisoft/japanesecalc/a/d.<init> ()V]
-      [209] astore_2 v2
-      [210] aload_2 v2
-      [211] ldc #31
-        + String [電子音２]
-      [213] putfield #50
+      [249] astore_2 v2
+      [250] aload_2 v2
+      [251] aload_0 v0
+      [252] ldc #21
+        + Integer [2131165206]
+      [254] invokevirtual #84
+        + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getString (I)Ljava/lang/String;]
+      [257] putfield #50
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.b Ljava/lang/String;]
-      [216] aload_2 v2
-      [217] ldc #21
-        + String [ピッ。]
-      [219] putfield #51
+      [260] aload_2 v2
+      [261] aload_0 v0
+      [262] ldc #22
+        + Integer [2131165207]
+      [264] invokevirtual #84
+        + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getString (I)Ljava/lang/String;]
+      [267] putfield #51
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.c Ljava/lang/String;]
-      [222] aload_2 v2
-      [223] ldc #8
+      [270] aload_2 v2
+      [271] ldc #8
         + Integer [2130968580]
-      [225] putfield #49
+      [273] putfield #49
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.a I]
-      [228] aload_2 v2
-      [229] iconst_0
-      [230] putfield #52
+      [276] aload_2 v2
+      [277] iconst_0
+      [278] putfield #52
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.d Z]
-      [233] aload_1 v1
-      [234] aload_2 v2
-      [235] invokeinterface #92
+      [281] aload_1 v1
+      [282] aload_2 v2
+      [283] invokeinterface #93
         + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [240] pop
-      [241] new #41
+      [288] pop
+      [289] new #41
         + Class [com/yojiokisoft/japanesecalc/a/d]
-      [244] dup
-      [245] invokespecial #78
+      [292] dup
+      [293] invokespecial #78
         + Methodref [com/yojiokisoft/japanesecalc/a/d.<init> ()V]
-      [248] astore_2 v2
-      [249] aload_2 v2
-      [250] ldc #27
-        + String [木魚]
-      [252] putfield #50
+      [296] astore_2 v2
+      [297] aload_2 v2
+      [298] aload_0 v0
+      [299] ldc #23
+        + Integer [2131165208]
+      [301] invokevirtual #84
+        + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getString (I)Ljava/lang/String;]
+      [304] putfield #50
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.b Ljava/lang/String;]
-      [255] aload_2 v2
-      [256] ldc #23
-        + String [ポク]
-      [258] putfield #51
+      [307] aload_2 v2
+      [308] aload_0 v0
+      [309] ldc #24
+        + Integer [2131165209]
+      [311] invokevirtual #84
+        + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getString (I)Ljava/lang/String;]
+      [314] putfield #51
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.c Ljava/lang/String;]
-      [261] aload_2 v2
-      [262] ldc #9
+      [317] aload_2 v2
+      [318] ldc #9
         + Integer [2130968581]
-      [264] putfield #49
+      [320] putfield #49
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.a I]
-      [267] aload_2 v2
-      [268] iconst_0
-      [269] putfield #52
+      [323] aload_2 v2
+      [324] iconst_0
+      [325] putfield #52
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.d Z]
-      [272] aload_1 v1
-      [273] aload_2 v2
-      [274] invokeinterface #92
+      [328] aload_1 v1
+      [329] aload_2 v2
+      [330] invokeinterface #93
         + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [279] pop
-      [280] new #41
+      [335] pop
+      [336] new #41
         + Class [com/yojiokisoft/japanesecalc/a/d]
-      [283] dup
-      [284] invokespecial #78
+      [339] dup
+      [340] invokespecial #78
         + Methodref [com/yojiokisoft/japanesecalc/a/d.<init> ()V]
-      [287] astore_2 v2
-      [288] aload_2 v2
-      [289] ldc #26
-        + String [太鼓]
-      [291] putfield #50
+      [343] astore_2 v2
+      [344] aload_2 v2
+      [345] aload_0 v0
+      [346] ldc #25
+        + Integer [2131165210]
+      [348] invokevirtual #84
+        + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getString (I)Ljava/lang/String;]
+      [351] putfield #50
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.b Ljava/lang/String;]
-      [294] aload_2 v2
-      [295] ldc #19
-        + String [ドン]
-      [297] putfield #51
+      [354] aload_2 v2
+      [355] aload_0 v0
+      [356] ldc #26
+        + Integer [2131165211]
+      [358] invokevirtual #84
+        + Methodref [com/yojiokisoft/japanesecalc/activity/SoundActivity.getString (I)Ljava/lang/String;]
+      [361] putfield #51
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.c Ljava/lang/String;]
-      [300] aload_2 v2
-      [301] ldc #10
+      [364] aload_2 v2
+      [365] ldc #10
         + Integer [2130968582]
-      [303] putfield #49
+      [367] putfield #49
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.a I]
-      [306] aload_2 v2
-      [307] iconst_0
-      [308] putfield #52
+      [370] aload_2 v2
+      [371] iconst_0
+      [372] putfield #52
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.d Z]
-      [311] aload_1 v1
-      [312] aload_2 v2
-      [313] invokeinterface #92
+      [375] aload_1 v1
+      [376] aload_2 v2
+      [377] invokeinterface #93
         + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
-      [318] pop
-      [319] aload_1 v1
-      [320] areturn
+      [382] pop
+      [383] aload_1 v1
+      [384] areturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   + Method:       onOkButtonClicked(Landroid/view/View;)V
@@ -65343,14 +65378,14 @@ Methods (count = 12):
       [4] aload_0 v0
       [5] getfield #54
         + Fieldref [com/yojiokisoft/japanesecalc/activity/SoundActivity.b I]
-      [8] invokeinterface #93
+      [8] invokeinterface #94
         + InterfaceMethodref [java/util/List.get (I)Ljava/lang/Object;]
       [13] checkcast #41
         + Class [com/yojiokisoft/japanesecalc/a/d]
       [16] getfield #49
         + Fieldref [com/yojiokisoft/japanesecalc/a/d.a I]
       [19] istore_2 v2
-      [20] ldc #15
+      [20] ldc #31
         + String [none]
       [22] astore_3 v3
       [23] iload_2 v2
@@ -67466,10 +67501,9 @@ Methods (count = 16):
       - ExceptionInfo (44 -> 66: 69):
       + Class [com/yojiokisoft/japanesecalc/d]
       Code attribute attributes (attribute count = 1):
-      + Stack map table attribute (count = 5):
+      + Stack map table attribute (count = 4):
         - [44] Var: ..., Stack: (empty)
         - [69] Var: ..., Stack: [a:com/yojiokisoft/japanesecalc/d]
-        - [85] Var: ..., Stack: (empty)
         - [88] Var: ..., Stack: (empty)
         - [112] Var: ..., Stack: (empty)
   + Method:       b(Lcom/yojiokisoft/japanesecalc/c;)V
@@ -68194,8 +68228,7 @@ Methods (count = 2):
       - ExceptionInfo (0 -> 8: 11):
       + Class [java/io/IOException]
       Code attribute attributes (attribute count = 1):
-      + Stack map table attribute (count = 3):
-        - [8] Var: ..., Stack: (empty)
+      + Stack map table attribute (count = 2):
         - [11] Var: ..., Stack: [a:java/io/IOException]
         - [12] Var: ..., Stack: (empty)
 
